@@ -1,8 +1,9 @@
 import torch
 from torch import nn, optim
 from torch.utils.tensorboard import SummaryWriter
-from model import get_model
 from data import dataloaders, criterion, device
+from model import get_model
+
 
 
 def train_model(model, criterion, optimizer, num_epochs=10):
