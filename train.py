@@ -1,8 +1,8 @@
 import torch
 from torch import nn, optim
 from torch.utils.tensorboard import SummaryWriter
-from data import dataloaders, criterion, device
 from model import get_model
+from data import dataloaders, criterion, device
 
 
 
